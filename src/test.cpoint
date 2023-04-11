@@ -1,0 +1,4 @@
+import @std/print.cpoint
+func test_github_complex(x : double){
+  printd(x)
+}
