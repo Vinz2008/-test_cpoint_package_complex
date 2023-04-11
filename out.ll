@@ -9,7 +9,7 @@ declare double @putchard(double)
 
 declare void @printstr(ptr)
 
-define double @test_github(double %x) {
+define double @test_github_complex(double %x) {
 entry:
   %x1 = alloca double, align 8
   store double %x, ptr %x1, align 8
